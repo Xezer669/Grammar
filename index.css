@@ -1,25 +1,28 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    column-gap: 20px;
     background-color: #0000ffaf;
     color: #ffff;
     border: 1px solid #0000ff31;
     padding: 10px;
 }
 
-header h1 {
+header p {
+    margin-top: 11px;
+    font-size: 1.5rem;
     color: #F77737;
+    font-weight: bold;
 }
 
  header i {
     color: #E1306C;
-    font-size: 21px;
+    font-size: 2rem;
  }
 
  header i:hover {
     color: #c5245a;
-    font-size: 21px;
  }
 
  header a {
