@@ -20,7 +20,7 @@ header {
  header a {
     text-decoration: none;
     color: #ffff;
-    margin-left: 5px;
+    margin-left: 10px;
  }
 
  header a:hover {
@@ -43,10 +43,12 @@ main h2 {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: #F56040;
+    background-color: #F77737;
+    color: #ffff;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 0px;
+    padding: 20px;
 }
 
 .list-group .list-group-item {
@@ -76,6 +78,24 @@ main h2 {
     padding: 10px 16px;
     background-color: #f1f1f1;
     cursor: pointer;
+  }
+
+  @media  (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
   }
 
   
