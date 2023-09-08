@@ -7,6 +7,11 @@ header {
     border: 1px solid #0000ff31;
     padding: 10px;
 }
+
+header h1 {
+    color: #F77737;
+}
+
  header i {
     color: #E1306C;
     font-size: 21px;
@@ -19,12 +24,12 @@ header {
 
  header a {
     text-decoration: none;
-    color: #ffff;
+    color: #F77737;
     margin-left: 10px;
  }
 
  header a:hover {
-    color: #c5245a;
+    color: #d66228;
  }
 
 
